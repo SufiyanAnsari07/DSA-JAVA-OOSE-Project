@@ -1,0 +1,30 @@
+FIFO Page Replacement :
+Page Hits : 10
+Page Faults : 10
+Hit Ratio : 50.0
+Fault Ratio : 50.0
+
+LRU Page Replacement :
+Page Hits : 12
+Page Faults : 8
+Hit Ratio : 60.0
+Fault Ratio : 40.0
+
+Optimal Page Replacement :
+Page Hits : 12
+Page Faults : 8
+Hit Ratio : 60.0
+Fault Ratio : 40.0
+
+MRU Page Replacement :
+Page Hits : 8
+Page Faults : 12
+Hit Ratio : 40.0
+Fault Ratio : 60.0
+
+
+----- Algorithm Ranking by Minimum Page Faults -----
+1. LRU Page Replacement : Page Faults : 8
+2. Optimal Page Replacement : Page Faults : 8
+3. FIFO Page Replacement : Page Faults : 10
+4. MRU Page Replacement : Page Faults : 12
