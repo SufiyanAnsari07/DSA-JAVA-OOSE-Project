@@ -7,7 +7,7 @@ public class Main {
     public static void main ( String[] args ) throws IOException {
         ArrayList<Process> processList = new ArrayList<Process>() ;
         Scanner sc = new Scanner ( System.in ) ;
-        BufferedWriter writer = new BufferedWriter ( new FileWriter ( "Files/input.txt" ) ) ;
+        BufferedWriter writer = new BufferedWriter ( new FileWriter ( "cpuscheduler/Files/input.txt" ) ) ;
 
         while ( true ) {
 
@@ -33,7 +33,7 @@ public class Main {
         }
         writer.close() ;
 
-        BufferedWriter bw = new BufferedWriter ( new FileWriter ( "Files/output.txt" ) ) ;
+        BufferedWriter bw = new BufferedWriter ( new FileWriter ( "cpuscheduler/Files/output.txt" ) ) ;
 
         System.out.println ( "\nSelect the scheduling algorithm to use or press -1 to quit : " ) ;
         System.out.println ( "1. FCFS (First Come First Serve)" ) ;

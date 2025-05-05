@@ -6,7 +6,7 @@ public class Main {
     public static void main ( String[] args ) throws IOException {
         Scanner sc = new Scanner( System.in ) ;
         List<Integer> referenceString = new ArrayList<>() ;
-        BufferedWriter writer = new BufferedWriter ( new FileWriter ("Files/input.txt") ) ;
+        BufferedWriter writer = new BufferedWriter ( new FileWriter ("pagereplacement/Files/input.txt") ) ;
 
         System.out.print( "Enter number of frames : " ) ;
         int frameCount = sc.nextInt() ;
@@ -23,7 +23,7 @@ public class Main {
         writer.close() ;
 
         PriorityQueue<AlgoResult> pq = new PriorityQueue<>() ;
-        BufferedWriter bw = new BufferedWriter( new FileWriter ( "Files/output.txt" ) ) ;
+        BufferedWriter bw = new BufferedWriter( new FileWriter ( "pagereplacement/Files/output.txt" ) ) ;
 
         System.out.println ( "\nSelect the page replacement algorithm to use or press -1 to quit : " ) ;
         System.out.println ( "1. FIFO" ) ;
@@ -42,22 +42,22 @@ public class Main {
             switch ( choice ) {
                 case 1 :
                     algorithm = new FIFOPageReplacement() ;
-                    name = "FIFO Page Replacement :" ;
+                    name = "FIFO Page Replacement " ;
                     break ;
 
                 case 2 :
                     algorithm = new LRUPageReplacement() ;
-                    name = "LRU Page Replacement :" ;
+                    name = "LRU Page Replacement " ;
                     break ;
 
                 case 3 :
                     algorithm = new OptimalPageReplacement() ;
-                    name = "Optimal Page Replacement :" ;
+                    name = "Optimal Page Replacement " ;
                     break ;
 
                 case 4 :
                     algorithm = new MRUPageReplacement() ;
-                    name = "MRU Page Replacement :" ;
+                    name = "MRU Page Replacement " ;
                     break ;
 
                 default :
@@ -79,7 +79,7 @@ public class Main {
         int rank = 1 ;
         while ( !pq.isEmpty() ) {
             AlgoResult result = pq.poll() ;
-            bw.write ( rank + ". " + result.name + " Page Faults : " + result.faults + "\n" ) ;
+            bw.write ( rank + "." + result.name + " -> Page Faults : " + result.faults + "\n" ) ;
             rank++ ;
         }
         bw.close() ;
