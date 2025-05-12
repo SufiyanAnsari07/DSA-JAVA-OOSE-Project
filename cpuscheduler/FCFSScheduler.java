@@ -9,7 +9,7 @@ public class FCFSScheduler implements Scheduler {
         int totalWaitingTime = 0 ;
         int totalTurnaroundTime = 0 ;
 
-        Collections.sort ( processList , new Comparator<Process> ( ) {
+        Collections.sort ( processList , new Comparator<Process> () {
             public int compare ( Process p1 , Process p2 ) {
                 return Integer.compare ( p1.arrival , p2.arrival ) ;
             }

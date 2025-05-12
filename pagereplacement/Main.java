@@ -86,6 +86,7 @@ public class Main {
         System.out.println ( "Page Replacement completed. Check 'Files/output.txt' for the results." ) ;
     }
 }
+
 class AlgoResult implements Comparable<AlgoResult> {
     int faults ;
     String name ;

@@ -44,6 +44,7 @@ public class Main {
 
         PriorityQueue<AlgoResult> pq = new PriorityQueue<>() ;
         while ( true ) {
+            System.out.print ("Enter your choice : ") ;
             int choice = sc.nextInt() ;
             if ( choice == -1 ) break ;
             switch ( choice ) {
@@ -97,7 +98,7 @@ public class Main {
     }
 }
 
-class AlgoResult implements Comparable<AlgoResult> {
+class AlgoResult  implements Comparable<AlgoResult> {
     String name ;
     double waitingTime ;
     double turnAroundTime ;

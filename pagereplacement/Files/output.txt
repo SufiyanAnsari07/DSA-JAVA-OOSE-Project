@@ -24,7 +24,7 @@ Fault Ratio : 60.0
 
 
 ----- Algorithm Ranking by Minimum Page Faults -----
-1. LRU Page Replacement  -> Page Faults : 8
-2. Optimal Page Replacement  -> Page Faults : 8
-3. FIFO Page Replacement  -> Page Faults : 10
-4. MRU Page Replacement  -> Page Faults : 12
+1.LRU Page Replacement  -> Page Faults : 8
+2.Optimal Page Replacement  -> Page Faults : 8
+3.FIFO Page Replacement  -> Page Faults : 10
+4.MRU Page Replacement  -> Page Faults : 12

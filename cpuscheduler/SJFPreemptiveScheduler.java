@@ -64,3 +64,4 @@ public class SJFPreemptiveScheduler implements Scheduler {
         pq.add ( new AlgoResult ( "SJF Preemptive Scheduling : " , totalWaitingTime , totalTurnaroundTime ) ) ;
     }
 }
+
