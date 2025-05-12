@@ -1,55 +1,11 @@
-FCFS Scheduling :
-PID : 0, Arrival Time : 1, Burst Time : 4, Completion Time : 5, Waiting Time : 0, Turnaround Time : 4
-PID : 5, Arrival Time : 3, Burst Time : 4, Completion Time : 9, Waiting Time : 2, Turnaround Time : 6
-PID : 1, Arrival Time : 4, Burst Time : 5, Completion Time : 14, Waiting Time : 5, Turnaround Time : 10
-PID : 2, Arrival Time : 4, Burst Time : 5, Completion Time : 19, Waiting Time : 10, Turnaround Time : 15
-PID : 3, Arrival Time : 7, Burst Time : 1, Completion Time : 20, Waiting Time : 12, Turnaround Time : 13
-PID : 4, Arrival Time : 8, Burst Time : 9, Completion Time : 29, Waiting Time : 12, Turnaround Time : 21
-Average Waiting Time : 6.833333333333333
-Average Turnaround Time : 11.5
-
-SJF Scheduling :
-PID: 3, Arrival Time: 7, Burst Time: 1, Completion Time: 8, Waiting Time: 0, Turnaround Time: 1
-PID: 0, Arrival Time: 1, Burst Time: 4, Completion Time: 12, Waiting Time: 7, Turnaround Time: 11PID: 5, Arrival Time: 3, Burst Time: 4, Completion Time: 16, Waiting Time: 9, Turnaround Time: 13
-PID: 1, Arrival Time: 4, Burst Time: 5, Completion Time: 21, Waiting Time: 12, Turnaround Time: 17
-PID: 2, Arrival Time: 4, Burst Time: 5, Completion Time: 26, Waiting Time: 17, Turnaround Time: 22
-PID: 4, Arrival Time: 8, Burst Time: 9, Completion Time: 35, Waiting Time: 18, Turnaround Time: 27
-Average Waiting Time: 10.5
-Average Turnaround Time: 15.166666666666666
-
-Priority Scheduling :
-PID : 3, Arrival Time : 7, Burst Time : 1, Priority : 2, Completion Time : 8, Waiting Time : 0, Turnaround Time : 1
-PID : 0, Arrival Time : 1, Burst Time : 4, Priority : 5, Completion Time : 12, Waiting Time : 7, Turnaround Time : 11
-PID : 2, Arrival Time : 4, Burst Time : 5, Priority : 7, Completion Time : 17, Waiting Time : 8, Turnaround Time : 13
-PID : 5, Arrival Time : 3, Burst Time : 4, Priority : 9, Completion Time : 21, Waiting Time : 14, Turnaround Time : 18
-PID : 1, Arrival Time : 4, Burst Time : 5, Priority : 10, Completion Time : 26, Waiting Time : 17, Turnaround Time : 22
-PID : 4, Arrival Time : 8, Burst Time : 9, Priority : 10, Completion Time : 35, Waiting Time : 18, Turnaround Time : 27
-Average Waiting Time : 10.666666666666666
-Average Turnaround Time : 15.333333333333334
-
-SJF Preemptive Scheduling :
-PID : 0, Arrival Time : 1, Burst Time : 4, Completion Time : 5, Waiting Time : 0, Turnaround Time : 4
-PID : 3, Arrival Time : 7, Burst Time : 1, Completion Time : 8, Waiting Time : 0, Turnaround Time : 1
-PID : 5, Arrival Time : 3, Burst Time : 4, Completion Time : 10, Waiting Time : 3, Turnaround Time : 7
-PID : 2, Arrival Time : 4, Burst Time : 5, Completion Time : 15, Waiting Time : 6, Turnaround Time : 11
-PID : 1, Arrival Time : 4, Burst Time : 5, Completion Time : 20, Waiting Time : 11, Turnaround Time : 16
-PID : 4, Arrival Time : 8, Burst Time : 9, Completion Time : 29, Waiting Time : 12, Turnaround Time : 21
-Average Waiting Time : 5.333333333333333
-Average Turnaround Time : 10.0
 
 Round Robin Scheduling :
-PID : 3, Arrival Time : 7, Burst Time: 1, Completion Time : 1, Waiting Time : -7, Turnaround Time : -6
-PID : 0, Arrival Time : 1, Burst Time: 4, Completion Time : 5, Waiting Time : 0, Turnaround Time : 4
-PID : 5, Arrival Time : 3, Burst Time: 4, Completion Time : 13, Waiting Time : 6, Turnaround Time : 10
-PID : 2, Arrival Time : 4, Burst Time: 5, Completion Time : 22, Waiting Time : 13, Turnaround Time : 18
-PID : 1, Arrival Time : 4, Burst Time: 5, Completion Time : 23, Waiting Time : 14, Turnaround Time : 19
-PID : 4, Arrival Time : 8, Burst Time: 9, Completion Time : 28, Waiting Time : 11, Turnaround Time : 20
-Average Waiting Time: 6.166666666666667
-Average Turnaround Time: 10.833333333333334
+PID : 1, Arrival Time : 0, Burst Time : 5, Completion Time : 9, Waiting Time : 4, Turnaround Time : 9
+PID : 2, Arrival Time : 1, Burst Time : 4, Completion Time : 12, Waiting Time : 7, Turnaround Time : 11
+PID : 3, Arrival Time : 2, Burst Time : 2, Completion Time : 8, Waiting Time : 4, Turnaround Time : 6
+PID : 4, Arrival Time : 4, Burst Time : 1, Completion Time : 10, Waiting Time : 5, Turnaround Time : 6
+Average Waiting Time: 5.0
+Average Turnaround Time: 8.0
 
 ----- Algorithm Ranking by Minimum Waiting time and turnaround time -----
-1. SJF Preemptive Scheduling :  Waiting Time : 5.33 Turnaround Time : 10.00
-2. Round Robin Scheduling : Waiting Time : 6.17 Turnaround Time : 10.83
-3. FCFS Scheduling :  Waiting Time : 6.83 Turnaround Time : 11.50
-4. SJF Scheduling :  Waiting Time : 10.50 Turnaround Time : 15.17
-5. Priority Scheduling :  Waiting Time : 10.67 Turnaround Time : 15.33
+1. Round Robin Scheduling : Waiting Time : 5.00 Turnaround Time : 8.00
